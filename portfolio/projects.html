@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="projects.css">
+    <link rel="stylesheet" href="portfolio.css">
+    <link href="https://googlefonts.github.io/ebgaramond-specimen"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&family=Poiret+One&display=swap" rel="stylesheet">
+    <title>Projects</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+          <a class="home" href="index.html">Home</a>
+          <a class="exp" href="experience.html">Experience</a>
+          <a class="projects" href="projects.html">Projects</a>
+          <a class="edu" href="edu.html">Education</a>
+          <a class="contactme" href="linkedin.html">LinkedIn</a>
+        </nav>
+    </header>
+    <div class="bodyodd">
+        <h1 class="title">Current Projects</h1>
+        <div class="currentproj">
+            <div class="searchlegAI">
+                <button class="icon-button" onclick="toggleDropdown('desc3')">
+                    <img class="legAIlogo" src="searchlegAIblue.png" width="400" height="200">
+                    <h2 class="projtitle">searchlegAI</h2>
+                </button>
+                <div id="desc3" class="dropdown">
+                    <p class="descrip">searchlegAI is a search engine which provides basic information about modern AI legal issues. The target audience for this site is all; while beginners can learn about interesting cases and their precedents, experts can brush up or get a quick summary about relevant cases. Taking inspiration from Wiktionary and popular search engines such as Google, the user interface is intended to be accessible to all, hoping to spread awareness about and encourage interest in the legal side of technology. Click here to explore!</p>
+                </div>
+            </div>
+
+            <div class="lingmach">
+                <button class="icon-button" onclick="toggleDropdown('desc4')">
+                    <img class="lingmachlogo" src="lingmachlogo.png" width="400" height="200">
+                    <h2 class="projtitle">Lingua Machina</h2>
+                </button>
+                <div id="desc4" class="dropdown">
+                    <p class="descrip">Lingua Machina is an interactive text viewer for classical literature. It includes interesting features such as literary analysis through technology and even a generator which provides text in the style of the classics. The purpose of the site is to encourage viewers to explore the classics and recognize this field's importance in modern times. Click here to learn more!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="bodyeven">
+        <h1 class="title">Completed Projects</h1>
+        <div class="completedproj">
+            <div class="iconlingland">
+                <button class="icon-button" onclick="toggleDropdown('desc1')">
+                    <img class="icon-buttonimg" src="lingland.jpg" id="coverpic" height="800" width="600">
+                    <h2 class="projtitle">Lingual Landscape</h2>
+                </button>
+                <div id="desc1" class="dropdown">
+                    <p class="descrip">The main objective of this book is to investigate patterns between language, culture and community. Here, I research how language is learned organically, locally within a home or a community from different experiences of local residents and how it differs from a structured method of learning language. Click <a class="anchor" href="https://www.amazon.com/Lingual-Landscape-guide-learning-languages-ebook/dp/B0CMWK1NJS/ref=sr_1_1?crid=3C28Q2JWM46PC&dib=eyJ2IjoiMSJ9.xIAkZH9wicPfgGmw5x2anU52av4WX7cpDECEjNUYrnDTirJBE4i4-uaaK654HZ66R4KCBmqBB2MSwcri7ANy0WNgRspG74MrovDrmH0bgwUq1JhyCeUtZDVMpNrhjWb0vFOJHlFK1Ykoq-GLNx9BobPOfMhNUpMdH2jiHX2hPGsxf2_tcUa3HcuBdKwjSE0UkRbeGkCITIksE0gy6HlceT051YFb1cC6rNhUa7czOh0.1D-t4PIgJ3WQYa_7szBqPlnddM_abcaE16AayRgqPhY&dib_tag=se&keywords=lingual+landscape&qid=1750451763&sprefix=lingual+landscape%2Caps%2C122&sr=8-1">here</a> to learn more!</p>
+                </div>
+            </div>
+
+            <div class="modmet">
+                <button class="icon-button" onclick="toggleDropdown('desc2')">
+                    <img class="icon-buttonimg" src="lingland.jpg" height="800" width="600">
+                    <h2 class="projtitle">Modern Metamorphoses</h2>
+                </button>
+                <div id="desc2" class="dropdown">
+                    <p class="descrip">Modern Metamorphoses is split into eight different sections. Each section provides an unadulterated view into the minds of our most cherished characters in famous Greek mythology. Based on the author’s original translations of Ovid’s Metamorphoses, Obalapuram takes through different perspectives on well-known tales and allows you to imagine yourself as another character–not as a reader. Modern Metamorphoses is a journey into the psyches of classic mythological figures--and a revival of the ancient stories that form our literature today. ***Likely to be published in late summer of 2025.</p>
+                </div>
+            </div>
+        </div>
+
+            <script>
+                function toggleDropdown(id) {
+                    const dropdown = document.getElementById(id);
+                    dropdown.classList.toggle('show');
+                }
+            </script>
+    </div>

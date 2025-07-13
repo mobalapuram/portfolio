@@ -1,0 +1,61 @@
+.schooling{
+    font-family: "Lexend Giga", sans-serif;
+    font-style: oblique;
+    text-align: center;
+    font-size: 60px;
+    padding: 10px;
+    color: black;
+    text-shadow: 5px 5px 5px rgb(138, 134, 134);
+}
+.emorybg{
+    background-color: #0e315f;
+    padding: 10px;
+    box-shadow: 5px 5px 5px black;
+    margin-bottom: 8px;
+    height: 180px;
+    z-index: 1;
+    position: relative;
+    transform: translate(200px, 0px);
+}
+
+.emorytext{
+    color: white;
+    font-family: "Poiret One", sans-serif;
+    font-size: 40px;
+    z-index: 1;
+    position: relative;
+}
+
+.emorylogo{
+    width: 195px;
+    height: 179px;
+    margin-left: 0;
+    transform: translate(-210px, -150.5px);
+    z-index: 10;
+    position: relative;
+    display: flex;
+    box-shadow: 5px 5px 5px black;;
+}
+
+.marcus{
+    background-color: red;
+    color: white;
+    font-family: "Poiret One", sans-serif;
+    height: 180px;
+    font-size: 40px;
+    transform: translate(200px, 0px);
+    padding: 10px;
+    box-shadow: 5px 5px 5px black;
+    margin-bottom: 8px;
+}
+
+.marcuslogo{
+    width: 195px;
+    height: 179px;
+    margin-left: 0;
+    transform: translate(-210px, -159px);
+    z-index: 10;
+    position: relative;
+    display: flex;
+    box-shadow: 5px 5px 5px black;;
+}

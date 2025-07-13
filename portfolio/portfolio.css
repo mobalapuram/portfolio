@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.bodyodd{
+    background-image: url("plants.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    z-index: 1;
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 100%;
+    height: 500px;
+}
+
+.bodyeven{
+    background-color: #6a8f5f;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 20;
+    padding: 1rem;
+    box-sizing: border-box;
+    width: 100%;
+    height: 1000px;
+}
+
+.title{
+    font-family: "Lexend Giga", sans-serif;
+    font-style: oblique;
+    text-align: center;
+    font-size: 60px;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+}
+
+.aboutme{
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 15px;
+    color: black;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    transform: translate(680px, 50px);
+    font-size: 18px;
+    margin: 0;
+    padding: 0px;
+    height: 300px;
+    width: 400px;
+    max-width: 100%;
+    text-align: center;
+}
+
+.header{
+    background-color: #6a8f5f;
+    box-shadow: 5px 5px 5px black;
+    margin-bottom: 5px;
+}
+
+a{
+    color: white;
+    text-decoration: none; 
+}
+
+.navbar{
+    font-family: "Poiret One";
+    font-style: bold;
+    text-align: center;
+    font-size: 30px;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+    justify-content: space-evenly;
+
+    padding: 2rem;
+}
+
+#mypic{
+    display: block;
+    max-width: 100%;
+    height: auto;
+    z-index: 2;
+    position: relative;
+    transform: translate(320px,-270px);
+    border: 10px rgb(217, 18, 18);
+    padding: 5px;
+}
+
+.exp{
+    transition: font-size .5s ease;
+}
+.exp:hover{
+    font-size: 33px;
+}
+.projects{
+    transition: font-size .5s ease;
+}
+.projects:hover{
+    font-size: 33px;
+}
+.edu{
+    transition: font-size .5s ease;
+}
+.edu:hover{
+    font-size: 33px;
+}
+.contactme{
+    transition: font-size .5s ease;
+}
+.contactme:hover{
+    font-size: 33px;
+}
+.home{
+    transition: font-size .5s ease;
+}
+.home:hover{
+    font-size: 33px;
+}
+

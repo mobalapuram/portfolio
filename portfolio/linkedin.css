@@ -1,0 +1,33 @@
+.words {
+    display: flex;
+    justify-content: center;
+}
+
+.xtra {
+    color: black;
+    font-family: "Poiret One";
+    font-size: 100px;
+    font-style: bold;
+    margin-top: 150px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    padding: 20px;
+    border-radius: 28px;
+    max-width: fit-content;
+}
+
+.as {
+    color: navy;
+    font-family: "Poiret One";
+    font-size: 100px;
+    font-style: italic;
+    margin-top: 150px;
+    padding: 20px;
+    border-radius: 28px;
+    max-width: fit-content;
+}
+
+.bodyodd {
+    height: 750px;
+}
+

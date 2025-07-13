@@ -1,0 +1,135 @@
+
+  .iconlingland {
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    align-items: flex-start;
+    margin-top: 75px;
+  }
+
+.modmet {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+#desc2 {
+    font-size: 11px;
+}
+
+  .icon-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .icon-buttonimg {
+    width: 200px;
+    height: 300px;
+    border-radius: 16px;
+    transition: transform 0.3s ease;
+  }
+
+  .icon-button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+  }
+
+  .dropdown {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    max-height: 0;
+    max-width: 200px;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+    background: white;
+    padding: 0 20px;
+    margin-top: 10px;
+    border-radius: 8px;
+    font-size: 14px;
+  }
+
+  .dropdown.show {
+    max-height: 280px; 
+    padding: 5px 5px;
+    max-width: 200px;
+    margin-left: 20px;
+    font-size: 14px;
+  }
+
+  .bodyeven {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .anchor{
+    color: black;
+  }
+
+  .completedproj {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+    margin-left: 200px;
+  }
+
+  .bodyodd {
+    display: flex;
+  }
+
+
+
+  .currentproj {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 150px;
+  }
+
+  .searchlegAI {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .legAIlogo {
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 200px;
+    height: 200px;
+  }
+
+  #desc3 {
+    font-size: 11.5px;
+  }
+
+  .projtitle {
+    font-style: italic;
+    font-family: "Nanum Myeongjo";
+    border-radius: 28px;
+    background-color: white;
+    padding: 1rem;
+    font-size: 22px;
+    margin-top: 10px;
+  }
+
+  .lingmach {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .lingmachlogo {
+    background: none;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 200px;
+    height: 200px;
+  }
+
+  #desc4 {
+    font-size: 13px;
+  }
