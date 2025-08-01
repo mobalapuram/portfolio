@@ -65,6 +65,8 @@
 
   .anchor{
     color: black;
+    text-decoration: underline;
+    font-style: italic;
   }
 
   .completedproj {
